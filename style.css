@@ -23,3 +23,25 @@
 .nav-items ul li{
     padding: 10px;
 }
+
+.res-card{
+    width:200px;
+    height: auto;
+    background-color: rgb(225, 225, 225);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.res-card img{
+    width: 100%;
+    height: 170px;
+}
+
+.cartAll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;               /* Adds spacing between cards */
+    justify-content: center; /* Centers them if less than full width */
+    padding: 20px;
+  }
+  

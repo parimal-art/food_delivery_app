@@ -21,11 +21,50 @@ const Header=()=>{
     )
 };
 
+const Search=()=>{
+  return(
+    <h1>Search Here...</h1>
+  )
+}
+
+const Cart=()=>{
+  return(
+    <div className="res-card">
+      <img className="cart-Img"src="https://www.pavaniskitchen.com/wp-content/uploads/2021/04/egg-biryani-recipe-1024x1024.jpg" />
+      <h3>Meghna Foods</h3>
+      <h4>Biriyani, North Indian, Asian</h4>
+      <h4>4.4 Stars</h4>
+      <h4>38 Minutes</h4>
+    </div>
+  )
+}
+
 const App = () => {
   return(
-    <>
+    <div className="body">
       <Header/>
-    </>
+      <Search/>
+      <div className="cartAll">
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+        <Cart/>
+      </div>
+    </div>
   )
 };
 

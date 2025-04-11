@@ -26,4 +26,25 @@
 .nav-items ul li {
   padding: 10px;
 }
+
+.res-card {
+  background-color: #e1e1e1;
+  border: 1px solid #000;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+}
+
+.res-card img {
+  width: 100%;
+  height: 170px;
+}
+
+.cartAll {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
 /*# sourceMappingURL=resturant.aa436662.css.map */
